@@ -20,9 +20,14 @@
             padding: 1em;
         }
 
-        h1, p {
-            font-size: 3em; /* 3x bigger font size for both h1 and p in the header */
-            margin: 0; /* Remove default margins to avoid extra spacing */
+        .header-text {
+            font-size: 3em; /* 3x bigger font size for text in the header */
+            margin-bottom: 0.5em; /* Maintain some space between h1 and p */
+        }
+
+        p {
+            font-size: 1.5em; /* Adjusted font size for p in the header */
+            margin-top: 0;
         }
 
         section, footer {
@@ -33,8 +38,8 @@
 </head>
 <body>
     <header>
-        <h1>WolfTheDev</h1>
-        <p>Making Games</p>
+        <h1 class="header-text">WolfTheDev</h1>
+        <p class="header-text">Making Games</p>
     </header>
 
     <section>
